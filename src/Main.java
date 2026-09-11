@@ -4,14 +4,25 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Nama Barang ke-1: ");
+        System.out.print("Nama Barang ke-1: ");
         String nama1 = scanner.nextLine();
 
-        System.out.println("Harga Satuan: ");
+        System.out.print("Harga Satuan: ");
         double harga1 = scanner.nextDouble();
 
-        System.out.println("Jumlah: ");
+        System.out.print("Jumlah: ");
         int jumlah1 = scanner.nextInt();
+
+        scanner.nextLine();
+
+        System.out.print("Nama Barang ke-2: ");
+        String nama2 = scanner.nextLine();
+
+        System.out.print("Harga Satuan: ");
+        double harga2 = scanner.nextDouble();
+
+        System.out.print("Jumlah: ");
+        int jumlah2 = scanner.nextInt();
 
 
     }
