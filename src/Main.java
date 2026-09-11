@@ -8,7 +8,7 @@ public class Main {
         String nama1 = scanner.nextLine();
 
         System.out.print("Harga Satuan: ");
-        double harga1 = scanner.nextDouble();
+        int harga1 = scanner.nextDouble();
 
         System.out.print("Jumlah: ");
         int jumlah1 = scanner.nextInt();
@@ -19,7 +19,7 @@ public class Main {
         String nama2 = scanner.nextLine();
 
         System.out.print("Harga Satuan: ");
-        double harga2 = scanner.nextDouble();
+        int harga2 = scanner.nextDouble();
 
         System.out.print("Jumlah: ");
         int jumlah2 = scanner.nextInt();
@@ -30,7 +30,7 @@ public class Main {
         String nama3 = scanner.nextLine();
 
         System.out.print("Harga Satuan: ");
-        double harga3 = scanner.nextDouble();
+        int harga3 = scanner.nextDouble();
 
         System.out.print("Jumlah: ");
         int jumlah3 = scanner.nextInt();
@@ -44,6 +44,7 @@ public class Main {
         int totalBelanja = totalharga1 + totalharga2 + totalharga3;
         int kembalian = uang - totalBelanja;
 
+        System.out.println();
 
 
 
