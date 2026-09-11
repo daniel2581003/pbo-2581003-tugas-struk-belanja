@@ -45,10 +45,13 @@ public class Main {
         int kembalian = uang - totalBelanja;
 
         System.out.println();
-
-
-
-
+        System.out.println("STRUK BELANJA");
+        System.out.println(nama1 + " " + jumlah1 + "x" + harga1 + "=" + totalharga1);
+        System.out.println(nama2 + " " + jumlah2 + "x" + harga2 + "=" + totalharga2);
+        System.out.println(nama3 + " " + jumlah3 + "x" + harga3 + "=" + totalharga3);
+        System.out.println("Total Belanja: " + totalBelanja);
+        System.out.println("Uang yang dibayar: " + uang);
+        System.out.println("Kembalian: " + kembalian);
 
     }
 }
